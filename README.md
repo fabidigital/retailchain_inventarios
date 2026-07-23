@@ -1,6 +1,6 @@
 •	¿Cuántas filas devuelve cada consulta y por qué son distintas?
 **Con Union All tomando stock, devuelve 14 filas
-UNION no deduplicó nada porque ninguna fila es 100% idéntica entre sucursales — el stock es lo que las diferencia. 
+UNION no elimino nada porque ninguna fila es 100% idéntica entre sucursales — el stock es lo que las diferencia. 
 Si quisieras ver a UNION eliminando filas de verdad, necesitarías que las 4 columnas coincidan exactamente.**
 
 .¿Por qué UNION ALL es más eficiente que UNION? ¿Qué operación adicional realiza UNION internamente que consume más recursos?
